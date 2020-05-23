@@ -1,0 +1,710 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-leak-check	Makefile	/^	valgrind --leak-check=full --show-reachable=no --error-limit=no .\/seq2gif -i tests\/data\/sl.tty -o \/dev\/null 2>&1 \\$/;"	m
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif\/missing aclocal-1.14$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = cscope$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+ATTR_BLINK	yaft.h	/^    ATTR_BLINK     = 5, \/* brighten background *\/$/;"	e	enum:char_attr
+ATTR_BOLD	yaft.h	/^    ATTR_BOLD      = 1, \/* brighten foreground *\/$/;"	e	enum:char_attr
+ATTR_RESET	yaft.h	/^    ATTR_RESET     = 0,$/;"	e	enum:char_attr
+ATTR_REVERSE	yaft.h	/^    ATTR_REVERSE   = 7,$/;"	e	enum:char_attr
+ATTR_UNDERLINE	yaft.h	/^    ATTR_UNDERLINE = 4,$/;"	e	enum:char_attr
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif\/missing automake-1.14$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+BACKSLASH	glyph/mkfont_bdf.h	/^	BACKSLASH = 0x5C,$/;"	e	enum:char_code
+BACKSLASH	yaft.h	/^    BACKSLASH = 0x5C,$/;"	e	enum:char_code
+BDF_BITMAP	glyph/mkfont_bdf.h	/^	BDF_BITMAP        = 2,$/;"	e	enum:misc
+BDF_CHAR	glyph/mkfont_bdf.h	/^	BDF_CHAR          = 1,$/;"	e	enum:misc
+BDF_HEADER	glyph/mkfont_bdf.h	/^	BDF_HEADER        = 0,$/;"	e	enum:misc
+BEL	glyph/mkfont_bdf.h	/^	BEL = 0x07, BS  = 0x08, HT  = 0x09,$/;"	e	enum:char_code
+BEL	yaft.h	/^    BEL = 0x07, BS  = 0x08, HT  = 0x09,$/;"	e	enum:char_code
+BITSPERBYTE	gifsave89.h	77;"	d
+BITS_PER_BYTE	glyph/mkfont_bdf.h	/^	BITS_PER_BYTE     = 8,$/;"	e	enum:misc
+BITS_PER_BYTE	yaft.h	/^    BITS_PER_BYTE     = 8,$/;"	e	enum:misc
+BITS_PER_SIXEL	yaft.h	/^    BITS_PER_SIXEL    = 6,       \/* number of bits of a sixel *\/$/;"	e	enum:misc
+BK	gifsave89.h	63;"	d
+BLOCK	gifsave89.h	62;"	d
+BLUE_MASK	main.c	/^    BLUE_MASK   = 2$/;"	e	enum:cmap_bitfield	file:
+BLUE_SHIFT	main.c	/^    BLUE_SHIFT  = 0,$/;"	e	enum:cmap_bitfield	file:
+BRIGHT_INC	yaft.h	/^    BRIGHT_INC        = 8,       \/* value used for brightening color *\/$/;"	e	enum:misc
+BS	glyph/mkfont_bdf.h	/^	BEL = 0x07, BS  = 0x08, HT  = 0x09,$/;"	e	enum:char_code
+BS	yaft.h	/^    BEL = 0x07, BS  = 0x08, HT  = 0x09,$/;"	e	enum:char_code
+BUFSIZE	glyph/mkfont_bdf.h	/^	BUFSIZE           = 1024,    \/* read, esc, various buffer size *\/$/;"	e	enum:misc
+BUFSIZE	yaft.h	/^    BUFSIZE           = 1024,    \/* read, esc, various buffer size *\/$/;"	e	enum:misc
+BYTE	gifsave89.h	/^typedef uint8_t BYTE;                        \/* one byte (8 bits) *\/$/;"	t
+BYTES_PER_PIXEL	yaft.h	/^    BYTES_PER_PIXEL   = 3,       \/* pixel size of sixel bitmap data *\/$/;"	e	enum:misc
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CELL_HEIGHT	glyph/milkjf.h	/^    CELL_HEIGHT = 16$/;"	e	enum:__anon3
+CELL_HEIGHT	glyph/mplus.h	/^    CELL_HEIGHT = 13$/;"	e	enum:__anon5
+CELL_WIDTH	glyph/milkjf.h	/^    CELL_WIDTH = 8,$/;"	e	enum:__anon3
+CELL_WIDTH	glyph/mplus.h	/^    CELL_WIDTH = 6,$/;"	e	enum:__anon5
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = *.gcno *.gcda *.gcov$/;"	m
+CODEBITS	gifsave89.h	93;"	d
+COLORS	yaft.h	/^    COLORS            = 256,     \/* number of color *\/$/;"	e	enum:misc
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES = package.json$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+COPYRIGHTTEXT	gifsave89.h	25;"	d
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CR	glyph/mkfont_bdf.h	/^	CR  = 0x0D, ESC = 0x1B, DEL = 0x7F,$/;"	e	enum:char_code
+CR	yaft.h	/^    CR  = 0x0D, ESC = 0x1B, DEL = 0x7F,$/;"	e	enum:char_code
+CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTRL_CHARS	yaft.h	/^    CTRL_CHARS        = 0x20,    \/* number of ctrl_func *\/$/;"	e	enum:misc
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEBUG	yaft.h	/^    DEBUG            = 0,      \/* write dump of input to stdout, debug message to stderr *\/$/;"	e	enum:__anon1
+DEFAULT_CHAR	glyph/mkfont_bdf.h	/^	DEFAULT_CHAR      = SPACE,   \/* used for erase char, cell_size *\/$/;"	e	enum:misc
+DEFAULT_CHAR	yaft.h	/^    DEFAULT_CHAR      = SPACE,   \/* used for erase char *\/$/;"	e	enum:misc
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEL	glyph/mkfont_bdf.h	/^	CR  = 0x0D, ESC = 0x1B, DEL = 0x7F,$/;"	e	enum:char_code
+DEL	yaft.h	/^    CR  = 0x0D, ESC = 0x1B, DEL = 0x7F,$/;"	e	enum:char_code
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(seq2gif_SOURCES)$/;"	m
+DIST_TARGETS	Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DRCS_CHARSETS	yaft.h	/^    DRCS_CHARSETS     = 63,      \/* number of charset of DRCS (according to DRCSMMv1) *\/$/;"	e	enum:misc
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ESC	glyph/mkfont_bdf.h	/^	CR  = 0x0D, ESC = 0x1B, DEL = 0x7F,$/;"	e	enum:char_code
+ESC	yaft.h	/^    CR  = 0x0D, ESC = 0x1B, DEL = 0x7F,$/;"	e	enum:char_code
+ESCSEQ_SIZE	yaft.h	/^    ESCSEQ_SIZE       = 256,     \/* limit size of terminal escape sequence *\/$/;"	e	enum:misc
+ESC_CHARS	yaft.h	/^    ESC_CHARS         = 0x80,    \/* number of esc_func *\/$/;"	e	enum:misc
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FF	glyph/mkfont_bdf.h	/^	LF  = 0x0A, VT  = 0x0B, FF  = 0x0C,$/;"	e	enum:char_code
+FF	yaft.h	/^    LF  = 0x0A, VT  = 0x0B, FF  = 0x0C,$/;"	e	enum:char_code
+FONT_MILKJF	config.h	5;"	d
+FONT_MPLUS	config.h	8;"	d
+FONT_UNIFONT	config.h	11;"	d
+GIFAPPLICATION	gifsave89.c	401;"	d	file:
+GIFCOLORTABLE	gifsave89.c	284;"	d	file:
+GIFCOMMENT	gifsave89.c	424;"	d	file:
+GIFGRAPHICCONTROL	gifsave89.c	334;"	d	file:
+GIFHEADER	gifsave89.c	232;"	d	file:
+GIFIMAGEDESC	gifsave89.c	296;"	d	file:
+GIFPLAINTEXT	gifsave89.c	368;"	d	file:
+GIFSAVE89	gifsave89.h	104;"	d
+GIFSAVE_VERSION	gifsave89.h	23;"	d
+GLYPH_PER_CHARSET	yaft.h	/^    GLYPH_PER_CHARSET = 96,      \/* number of glyph of each DRCS charset *\/$/;"	e	enum:misc
+GREEN_MASK	main.c	/^    GREEN_MASK  = 3,$/;"	e	enum:cmap_bitfield	file:
+GREEN_SHIFT	main.c	/^    GREEN_SHIFT = 2,$/;"	e	enum:cmap_bitfield	file:
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GS	gifsave89.h	105;"	d
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HALF	glyph/mkfont_bdf.h	/^	HALF,$/;"	e	enum:glyph_width_t
+HALF	yaft.h	/^    HALF,$/;"	e	enum:glyph_width_t
+HASH	gifsave89.h	97;"	d
+HASHFREE	gifsave89.h	91;"	d
+HASHSIZE	gifsave89.h	95;"	d
+HASHSTEP	gifsave89.h	96;"	d
+HAVE_CALLOC	config.h	14;"	d
+HAVE_CTYPE_H	config.h	17;"	d
+HAVE_ERRNO_H	config.h	20;"	d
+HAVE_FCNTL_H	config.h	23;"	d
+HAVE_GETOPT_H	config.h	29;"	d
+HAVE_GETOPT_LONG	config.h	32;"	d
+HAVE_INTTYPES_H	config.h	35;"	d
+HAVE_LIMITS_H	config.h	38;"	d
+HAVE_MALLOC	config.h	42;"	d
+HAVE_MEMCPY	config.h	45;"	d
+HAVE_MEMMOVE	config.h	48;"	d
+HAVE_MEMORY_H	config.h	51;"	d
+HAVE_REALLOC	config.h	55;"	d
+HAVE_STDINT_H	config.h	61;"	d
+HAVE_STDLIB_H	config.h	64;"	d
+HAVE_STRCHR	config.h	67;"	d
+HAVE_STRINGS_H	config.h	70;"	d
+HAVE_STRING_H	config.h	73;"	d
+HAVE_STRSTR	config.h	76;"	d
+HAVE_STRTOL	config.h	79;"	d
+HAVE_SYS_STAT_H	config.h	82;"	d
+HAVE_SYS_TYPES_H	config.h	85;"	d
+HAVE_UNISTD_H	config.h	88;"	d
+HAVE_WCHAR_H	config.h	91;"	d
+HAVE__BOOL	config.h	94;"	d
+HT	glyph/mkfont_bdf.h	/^	BEL = 0x07, BS  = 0x08, HT  = 0x09,$/;"	e	enum:char_code
+HT	yaft.h	/^    BEL = 0x07, BS  = 0x08, HT  = 0x09,$/;"	e	enum:char_code
+HUEMAX	dcs.c	/^    HUEMAX = 360,$/;"	e	enum:__anon2	file:
+INSTALL	Makefile	/^INSTALL = \/home\/shane\/scripts\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+ISO10646	glyph/mkfont_bdf.h	/^	ISO10646$/;"	e	enum:encode_t
+ISO8859	glyph/mkfont_bdf.h	/^	ISO8859,$/;"	e	enum:encode_t
+JISX0201	glyph/mkfont_bdf.h	/^	JISX0201,$/;"	e	enum:encode_t
+JISX0208	glyph/mkfont_bdf.h	/^	JISX0208,$/;"	e	enum:encode_t
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LF	glyph/mkfont_bdf.h	/^	LF  = 0x0A, VT  = 0x0B, FF  = 0x0C,$/;"	e	enum:char_code
+LF	yaft.h	/^    LF  = 0x0A, VT  = 0x0B, FF  = 0x0C,$/;"	e	enum:char_code
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LSMAX	dcs.c	/^    LSMAX  = 100,$/;"	e	enum:__anon2	file:
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif\/missing makeinfo$/;"	m
+MALLOC_STUB_H	malloc_stub.h	19;"	d
+MAXBLKBYTES	gifsave89.h	64;"	d
+MAX_ARGS	yaft.h	/^    MAX_ARGS          = 16,      \/* max parameters of csi\/osc sequence *\/$/;"	e	enum:misc
+MAX_HEIGHT	glyph/mkfont_bdf.h	/^	MAX_HEIGHT        = 32,$/;"	e	enum:misc
+MIMETEX	gifsave89.h	43;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MODE_AMRIGHT	yaft.h	/^    MODE_AMRIGHT = 0x04, \/* auto wrap: DECAWM *\/$/;"	e	enum:term_mode
+MODE_CURSOR	yaft.h	/^    MODE_CURSOR  = 0x02, \/* cursor visible: DECTCEM *\/$/;"	e	enum:term_mode
+MODE_ORIGIN	yaft.h	/^    MODE_ORIGIN  = 0x01, \/* origin mode: DECOM *\/$/;"	e	enum:term_mode
+MODE_RESET	yaft.h	/^    MODE_RESET   = 0x00,$/;"	e	enum:term_mode
+MSGFP	gifsave89.c	73;"	d	file:
+NEXTFIRST	gifsave89.h	92;"	d
+NEXT_TO_WIDE	glyph/mkfont_bdf.h	/^	NEXT_TO_WIDE = 0,$/;"	e	enum:glyph_width_t
+NEXT_TO_WIDE	yaft.h	/^    NEXT_TO_WIDE = 0,$/;"	e	enum:glyph_width_t
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NSTRINGS	gifsave89.h	94;"	d
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OKAY	gifsave89.c	65;"	d	file:
+OSC_GWREPT	yaft.h	/^    OSC_GWREPT        = 8900,    \/* OSC Ps: mode number of yaft GWREPT *\/$/;"	e	enum:misc
+O_BINARY	main.c	56;"	d	file:
+PACKAGE	Makefile	/^PACKAGE = seq2gif$/;"	m
+PACKAGE	config.h	100;"	d
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = user@zuse.jp$/;"	m
+PACKAGE_BUGREPORT	config.h	103;"	d
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = seq2gif$/;"	m
+PACKAGE_NAME	config.h	106;"	d
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = seq2gif 0.10.4$/;"	m
+PACKAGE_STRING	config.h	109;"	d
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = seq2gif$/;"	m
+PACKAGE_TARNAME	config.h	112;"	d
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	115;"	d
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.10.4$/;"	m
+PACKAGE_VERSION	config.h	118;"	d
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POW2	gifsave89.h	89;"	d
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMID	gifsave89.h	22;"	d
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+RED_MASK	main.c	/^    RED_MASK    = 3,$/;"	e	enum:cmap_bitfield	file:
+RED_SHIFT	main.c	/^    RED_SHIFT   = 5,$/;"	e	enum:cmap_bitfield	file:
+REPLACEMENT_CHAR	glyph/conf.h	/^    REPLACEMENT_CHAR = 0x003F, \/* used for malformed UTF-8 sequence    : U+003F (QUESTION MARK)  *\/$/;"	e	enum:__anon4
+RESCODES	gifsave89.h	90;"	d
+REVISIONDATE	gifsave89.h	24;"	d
+RGBMAX	dcs.c	/^    RGBMAX = 255,$/;"	e	enum:__anon2	file:
+SB	gifsave89.h	75;"	d
+SELECTED_FONT	config.h	121;"	d
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIGWINCH	yaft.h	37;"	d
+SOURCES	Makefile	/^SOURCES = $(seq2gif_SOURCES)$/;"	m
+SPACE	glyph/mkfont_bdf.h	/^	SPACE     = 0x20,$/;"	e	enum:char_code
+SPACE	yaft.h	/^    SPACE     = 0x20,$/;"	e	enum:char_code
+STATE_CSI	yaft.h	/^    STATE_CSI    = 0x02, \/* ESC [ *\/$/;"	e	enum:esc_state
+STATE_DCS	yaft.h	/^    STATE_DCS    = 0x08, \/* ESC P *\/$/;"	e	enum:esc_state
+STATE_ESC	yaft.h	/^    STATE_ESC    = 0x01, \/* 0x1B, \\033, ESC *\/$/;"	e	enum:esc_state
+STATE_OSC	yaft.h	/^    STATE_OSC    = 0x04, \/* ESC ] *\/$/;"	e	enum:esc_state
+STATE_RESET	yaft.h	/^    STATE_RESET  = 0x00,$/;"	e	enum:esc_state
+STDC_HEADERS	config.h	124;"	d
+STRIP	Makefile	/^STRIP = $/;"	m
+SUBBLOCK	gifsave89.h	74;"	d
+SUBBLOCKSIZE	gifsave89.h	76;"	d
+SUBSTITUTE_HALF	glyph/conf.h	/^    SUBSTITUTE_HALF  = 0x0020, \/* used for missing glyph (single width): U+0020 (SPACE) *\/$/;"	e	enum:__anon4
+SUBSTITUTE_WIDE	glyph/conf.h	/^    SUBSTITUTE_WIDE  = 0x3000, \/* used for missing glyph (double width): U+3000 (IDEOGRAPHIC SPACE) *\/$/;"	e	enum:__anon4
+UCS2_CHARS	glyph/mkfont_bdf.h	/^	UCS2_CHARS        = 0x10000, \/* number of UCS2 glyph *\/$/;"	e	enum:misc
+UCS2_CHARS	yaft.h	/^    UCS2_CHARS        = 0x10000, \/* number of UCS2 glyph *\/$/;"	e	enum:misc
+VERSION	Makefile	/^VERSION = 0.10.4$/;"	m
+VERSION	config.h	127;"	d
+VT	glyph/mkfont_bdf.h	/^	LF  = 0x0A, VT  = 0x0B, FF  = 0x0C,$/;"	e	enum:char_code
+VT	yaft.h	/^    LF  = 0x0A, VT  = 0x0B, FF  = 0x0C,$/;"	e	enum:char_code
+WGET	gifsave89.h	47;"	d
+WIDE	glyph/mkfont_bdf.h	/^	WIDE,$/;"	e	enum:glyph_width_t
+WIDE	yaft.h	/^    WIDE,$/;"	e	enum:glyph_width_t
+WORD	gifsave89.h	/^typedef uint16_t WORD;                        \/* used for two byte integers *\/$/;"	t
+X68000	glyph/mkfont_bdf.h	/^	X68000,$/;"	e	enum:encode_t
+_XOPEN_SOURCE	glyph/mkfont_bdf.h	2;"	d
+abs_builddir	Makefile	/^abs_builddir = \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif$/;"	m
+absval	gifsave89.c	77;"	d	file:
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_find_intX_t	configure	/^ac_fn_c_find_intX_t ()$/;"	f
+ac_fn_c_find_uintX_t	configure	/^ac_fn_c_find_uintX_t ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+add_parm	util.c	/^void add_parm(struct parm_t *pt, char *cp)$/;"	f
+addch	terminal.c	/^void addch(struct terminal *term, uint32_t code)$/;"	f
+aix_post_process_depfile	depcomp	/^aix_post_process_depfile ()$/;"	f
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__post_remove_distdir	Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	Makefile	/^am__v_CC_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	Makefile	/^am__v_lt_1 = $/;"	m
+am_seq2gif_OBJECTS	Makefile	/^am_seq2gif_OBJECTS = seq2gif-main.$(OBJEXT) seq2gif-util.$(OBJEXT) \\$/;"	m
+animategif	gifsave89.c	/^int animategif(GS * gs, int nrepetitions,$/;"	f
+apply_colormap	main.c	/^static void apply_colormap(struct pseudobuffer *pb, unsigned char *img)$/;"	f	file:
+argc	yaft.h	/^    int argc;$/;"	m	struct:parm_t
+argv	yaft.h	/^    char *argv[MAX_ARGS];$/;"	m	struct:parm_t
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+ascent	glyph/mkfont_bdf.h	/^	int ascent, descent;$/;"	m	struct:bdf_t
+attr_mask	yaft.h	/^static const uint8_t attr_mask[] = {$/;"	v
+attribute	yaft.h	/^    enum char_attr attribute;                    \/* bold, underscore, etc... *\/$/;"	m	struct:terminal	typeref:enum:terminal::char_attr
+attribute	yaft.h	/^    enum char_attr attribute;       \/* bold, underscore, etc... *\/$/;"	m	struct:cell_t	typeref:enum:cell_t::char_attr
+attribute	yaft.h	/^    enum char_attr attribute;$/;"	m	struct:state_t	typeref:enum:state_t::char_attr
+background_color	main.c	/^    int background_color;$/;"	m	struct:settings_t	file:
+bbh	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_glyph_t
+bbh	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_t
+bbw	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_glyph_t
+bbw	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_t
+bbx	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_glyph_t
+bbx	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_t
+bby	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_glyph_t
+bby	glyph/mkfont_bdf.h	/^	int bbw, bbh, bbx, bby;$/;"	m	struct:bdf_t
+bdf_glyph_t	glyph/mkfont_bdf.h	/^struct bdf_glyph_t {$/;"	s
+bdf_t	glyph/mkfont_bdf.h	/^struct bdf_t {$/;"	s
+bg	yaft.h	/^struct color_pair_t { uint8_t fg, bg; };$/;"	m	struct:color_pair_t
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = seq2gif$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bisearch	wcwidth.c	/^static int bisearch(wchar_t ucs, const struct interval *table, int max) {$/;"	f	file:
+bit_mask	yaft.h	/^static const uint32_t bit_mask[] = {$/;"	v
+bitmap	glyph/milkjf.h	/^    uint16_t bitmap[16];$/;"	m	struct:glyph_t
+bitmap	glyph/mkfont_bdf.h	/^	uint32_t *bitmap;$/;"	m	struct:glyph_t
+bitmap	glyph/mkfont_bdf.h	/^	uint32_t bitmap[MAX_HEIGHT];$/;"	m	struct:bdf_glyph_t
+bitmap	glyph/mplus.h	/^    uint16_t bitmap[13];$/;"	m	struct:glyph_t
+bitmap	yaft.h	/^    uint8_t *bitmap;$/;"	m	struct:sixel_canvas_t
+bitmap	yaft.h	/^    uint8_t bitmap[BYTES_PER_PIXEL * CELL_WIDTH * CELL_HEIGHT];$/;"	m	struct:cell_t
+bitmask	gifsave89.c	53;"	d	file:
+bottom	yaft.h	/^struct margin { uint16_t top, bottom; };$/;"	m	struct:margin
+bp	yaft.h	/^    char *bp;$/;"	m	struct:esc_t
+bs	function.c	/^void bs(struct terminal *term)$/;"	f
+buf	pseudo.h	/^    uint8_t *buf;        \/* copy of framebuffer *\/$/;"	m	struct:pseudobuffer
+buf	yaft.h	/^    char *buf;$/;"	m	struct:esc_t
+build_alias	Makefile	/^build_alias = $/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+bytes_per_pixel	pseudo.h	/^    int bytes_per_pixel; \/* BYTES per pixel *\/$/;"	m	struct:pseudobuffer
+cell_t	yaft.h	/^struct cell_t {$/;"	s
+cells	yaft.h	/^    struct cell_t *cells;                        \/* pointer to each cell: cells[cols + lines * num_of_cols] *\/$/;"	m	struct:terminal	typeref:struct:terminal::cell_t
+char_attr	yaft.h	/^enum char_attr {$/;"	g
+char_code	glyph/mkfont_bdf.h	/^enum char_code {$/;"	g
+char_code	yaft.h	/^enum char_code {$/;"	g
+chars	glyph/mkfont_bdf.h	/^	int chars;$/;"	m	struct:bdf_t
+charset	glyph/mkfont_bdf.h	/^	char charset[BUFSIZE];$/;"	m	struct:bdf_t
+charset	yaft.h	/^    struct charset_t charset;                    \/* store UTF-8 byte stream *\/$/;"	m	struct:terminal	typeref:struct:terminal::charset_t
+charset_t	yaft.h	/^struct charset_t {$/;"	s
+check_fonts	glyph/font.h	/^void check_
+cjkwidth	main.c	/^    int cjkwidth;$/;"	m	struct:settings_t	file:
+clear_tabstop	function.c	/^void clear_tabstop(struct terminal *term, struct parm_t *parm)$/;"	f
+clearbit	gifsave89.c	50;"	d	file:
+clearlzw	gifsave89.c	/^int clearlzw(GS * gs, int codesize)$/;"	f
+cmap_bitfield	main.c	/^enum cmap_bitfield {$/;"	g	file:
+code	glyph/milkjf.h	/^    uint32_t code;$/;"	m	struct:glyph_t
+code	glyph/mplus.h	/^    uint32_t code;$/;"	m	struct:glyph_t
+code	yaft.h	/^    uint32_t code; \/* UCS4 code point: yaft only prints UCS2 and DRCSMMv1 *\/$/;"	m	struct:charset_t
+color_index	yaft.h	/^    uint8_t color_index;$/;"	m	struct:sixel_canvas_t
+color_list	color.h	/^static const uint32_t color_list[256] = {$/;"	v
+color_pair	yaft.h	/^    struct color_pair_t color_pair;              \/* color (fg, bg) *\/$/;"	m	struct:terminal	typeref:struct:terminal::color_pair_t
+color_pair	yaft.h	/^    struct color_pair_t color_pair; \/* color (fg, bg) *\/$/;"	m	struct:cell_t	typeref:struct:cell_t::color_pair_t
+color_pair_t	yaft.h	/^struct color_pair_t { uint8_t fg, bg; };$/;"	s
+color_palette	yaft.h	/^    uint32_t color_palette[COLORS];              \/* 256 color palette *\/$/;"	m	struct:terminal
+color_table	yaft.h	/^    uint32_t color_table[COLORS];$/;"	m	struct:sixel_canvas_t
+cols	yaft.h	/^    int cols, lines;                             \/* terminal size (cell) *\/$/;"	m	struct:terminal
+control_character	parse.c	/^static void control_character(struct terminal *term, uint8_t ch)$/;"	f	file:
+controlgif	gifsave89.c	/^int controlgif(GS * gs, int tcolor, int delay, int userinput, int disposal)$/;"	f
+convert_table	glyph/mkfont_bdf.h	/^int convert_table[UCS2_CHARS];$/;"	v
+copy_cell	terminal.c	/^void copy_cell(struct terminal *term, int dst_y, int dst_x, int src_y, int src_x)$/;"	f
+copyright	gifsave89.h	/^static char *copyright =                \/* gnu\/gpl copyright notice *\/$/;"	v
+count	yaft.h	/^    int following_byte, count;$/;"	m	struct:charset_t
+cr	function.c	/^void cr(struct terminal *term)$/;"	f
+crnl	function.c	/^void crnl(struct terminal *term)$/;"	f
+csi_func	parse.c	/^static void (*csi_func[ESC_CHARS])(struct terminal *term, struct parm_t *) = {$/;"	v	file:
+csi_sequence	parse.c	/^static void csi_sequence(struct terminal *term, uint8_t ch)$/;"	f	file:
+ctrl_func	parse.c	/^static void (*ctrl_func[CTRL_CHARS])(struct terminal *term) = {$/;"	v	file:
+curs_back	function.c	/^void curs_back(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_col	function.c	/^void curs_col(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_down	function.c	/^void curs_down(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_forward	function.c	/^void curs_forward(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_line	function.c	/^void curs_line(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_nl	function.c	/^void curs_nl(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_pl	function.c	/^void curs_pl(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_pos	function.c	/^void curs_pos(struct terminal *term, struct parm_t *parm)$/;"	f
+curs_up	function.c	/^void curs_up(struct terminal *term, struct parm_t *parm)$/;"	f
+cursor	yaft.h	/^    struct point_t cursor;                       \/* cursor pos (x, y) *\/$/;"	m	struct:terminal	typeref:struct:terminal::point_t
+cursor	yaft.h	/^    struct point_t cursor;$/;"	m	struct:state_t	typeref:struct:state_t::point_t
+cursor_color	main.c	/^    int cursor_color;$/;"	m	struct:settings_t	file:
+cursor_color	yaft.h	/^    int cursor_color;                            \/* corsor color *\/$/;"	m	struct:terminal
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+dcs_sequence	parse.c	/^static void dcs_sequence(struct terminal *term, uint8_t ch)$/;"	f	file:
+debuggif	gifsave89.c	/^int debuggif(int dblevel, char *dbfile)$/;"	f
+dec2num	util.c	/^int dec2num(char *str)$/;"	f
+decdld_bitmap	dcs.c	/^static void decdld_bitmap(struct glyph_t *glyph, uint8_t bitmap, uint8_t row, uint8_t column)$/;"	f	file:
+decdld_parse_data	dcs.c	/^void decdld_parse_data(char *start_buf, int start_char, struct glyph_t *chars)$/;"	f
+decdld_parse_header	dcs.c	/^void decdld_parse_header(struct terminal *term, char *start_buf)$/;"	f
+default_bg	yaft.h	/^    int default_bg;                              \/* default background color *\/$/;"	m	struct:terminal
+default_char	glyph/mkfont_bdf.h	/^	int default_char;$/;"	m	struct:bdf_t
+default_fg	yaft.h	/^    int default_fg;                              \/* default foreground color *\/$/;"	m	struct:terminal
+delete_char	function.c	/^void delete_char(struct terminal *term, struct parm_t *parm)$/;"	f
+delete_line	function.c	/^void delete_line(struct terminal *term, struct parm_t *parm)$/;"	f
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+descent	glyph/mkfont_bdf.h	/^	int ascent, descent;$/;"	m	struct:bdf_t
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+draw_line	pseudo.c	/^static void draw_line(struct pseudobuffer *pb, struct terminal *term, int line)$/;"	f	file:
+draw_sixel	pseudo.c	/^static void draw_sixel(struct pseudobuffer *pb, int line, int col, uint8_t *bitmap)$/;"	f	file:
+drcs	yaft.h	/^    struct glyph_t *drcs[DRCS_CHARSETS];         \/* DRCS chars *\/$/;"	m	struct:terminal	typeref:struct:terminal::glyph_t
+drcsch	terminal.c	/^const struct glyph_t *drcsch(struct terminal *term, uint32_t code)$/;"	f
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dwidth	glyph/mkfont_bdf.h	/^	int dwidth;$/;"	m	struct:bdf_glyph_t
+ecalloc	glyph/font.h	/^void *ecalloc(size_t nmemb, size_t size)$/;"	f
+ecalloc	util.c	/^void *ecalloc(size_t nmemb, size_t size)$/;"	f
+efclose	glyph/font.h	/^void efclose(FILE *fp)$/;"	f
+efopen	glyph/font.h	/^FILE *efopen(char *path, char *mode)$/;"	f
+encode_t	glyph/mkfont_bdf.h	/^enum encode_t {$/;"	g
+encodelzw	gifsave89.c	/^int encodelzw(GS * gs, int codesize, int nbytes, BYTE * data)$/;"	f
+encoding	glyph/mkfont_bdf.h	/^	int encoding;$/;"	m	struct:bdf_glyph_t
+endgif	gifsave89.c	/^int endgif(GS * gs)$/;"	f
+enter_csi	function.c	/^void enter_csi(struct terminal *term)$/;"	f
+enter_dcs	function.c	/^void enter_dcs(struct terminal *term)$/;"	f
+enter_esc	function.c	/^void enter_esc(struct terminal *term)$/;"	f
+enter_osc	function.c	/^void enter_osc(struct terminal *term)$/;"	f
+erase_cell	terminal.c	/^void erase_cell(struct terminal *term, int y, int x)$/;"	f
+erase_char	function.c	/^void erase_char(struct terminal *term, struct parm_t *parm)$/;"	f
+erase_display	function.c	/^void erase_display(struct terminal *term, struct parm_t *parm)$/;"	f
+erase_line	function.c	/^void erase_line(struct terminal *term, struct parm_t *parm)$/;"	f
+erealloc	util.c	/^void *erealloc(void *ptr, size_t size)$/;"	f
+error	util.c	/^void error(char *str)$/;"	f
+esc	yaft.h	/^    struct esc_t esc;                            \/* store escape sequence *\/$/;"	m	struct:terminal	typeref:struct:terminal::esc_t
+esc_func	parse.c	/^static void (*esc_func[ESC_CHARS])(struct terminal *term) = {$/;"	v	file:
+esc_sequence	parse.c	/^static void esc_sequence(struct terminal *term, uint8_t ch)$/;"	f	file:
+esc_state	yaft.h	/^enum esc_state {$/;"	g
+esc_t	yaft.h	/^struct esc_t {$/;"	s
+estrtol	util.c	/^static long estrtol(const char *nptr, char **endptr, int base)$/;"	f	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+f	gifsave89.c	/^double *f(double param, int n)$/;"	f
+fatal	glyph/font.h	/^void fatal(char *str)$/;"	f
+fatal	util.c	/^void fatal(char *str)$/;"	f
+fd	yaft.h	/^    int fd;                                      \/* master fd *\/$/;"	m	struct:terminal
+fg	yaft.h	/^struct color_pair_t { uint8_t fg, bg; };$/;"	m	struct:color_pair_t
+first	wcwidth.c	/^  int first;$/;"	m	struct:interval	file:
+flushsubblock	gifsave89.c	/^int flushsubblock(SB * sb)$/;"	f
+fn_wcwidth	yaft.h	/^    wcwidth_func_t fn_wcwidth;                   \/* wcwidth strategy *\/$/;"	m	struct:terminal
+following_byte	yaft.h	/^    int following_byte, count;$/;"	m	struct:charset_t
+foreground_color	main.c	/^    int foreground_color;$/;"	m	struct:settings_t	file:
+fprintpixels	gifsave89.c	/^int fprintpixels(GS * gs, int format, void *pixels)$/;"	f
+fputgif	gifsave89.c	/^int fputgif(GS * gs, int left, int top, int width, int height,$/;"	f
+func_cl_dashL	compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	compile	/^func_cl_wrapper ()$/;"	f
+func_file_conv	compile	/^func_file_conv ()$/;"	f
+getbit	gifsave89.c	48;"	d	file:
+getbitfield	gifsave89.c	54;"	d	file:
+getlzw	gifsave89.c	/^int getlzw(GS * gs, int index, int byte)$/;"	f
+gifheight	gifsave89.c	/^int gifheight(void *gs)$/;"	f
+gifwidth	gifsave89.c	/^int gifwidth(void *gs)$/;"	f
+give_advice	missing	/^give_advice ()$/;"	f
+glyph_map	yaft.h	/^    const struct glyph_t *glyph_map[UCS2_CHARS]; \/* array of pointer to glyphs[] *\/$/;"	m	struct:terminal	typeref:struct:terminal::glyph_t
+glyph_t	glyph/milkjf.h	/^struct glyph_t {$/;"	s
+glyph_t	glyph/mkfont_bdf.h	/^struct glyph_t {$/;"	s
+glyph_t	glyph/mplus.h	/^struct glyph_t {$/;"	s
+glyph_width_t	glyph/mkfont_bdf.h	/^enum glyph_width_t {$/;"	g
+glyph_width_t	yaft.h	/^enum glyph_width_t {$/;"	g
+glyphp	yaft.h	/^    const struct glyph_t *glyphp;   \/* pointer to glyph *\/$/;"	m	struct:cell_t	typeref:struct:cell_t::glyph_t
+glyphs	glyph/milkjf.h	/^static const struct glyph_t glyphs[] = {$/;"	v	typeref:struct:glyph_t
+glyphs	glyph/mplus.h	/^static const struct glyph_t glyphs[] = {$/;"	v	typeref:struct:glyph_t
+has_bitmap	yaft.h	/^    bool has_bitmap;$/;"	m	struct:cell_t
+height	glyph/mkfont_bdf.h	/^	uint8_t width, height;$/;"	m	struct:glyph_t
+height	main.c	/^    int height;$/;"	m	struct:settings_t	file:
+height	pseudo.h	/^    int width, height;   \/* display resolution *\/$/;"	m	struct:pseudobuffer
+height	yaft.h	/^    int width, height;                           \/* terminal size (pixel) *\/$/;"	m	struct:terminal
+height	yaft.h	/^    int width, height;$/;"	m	struct:sixel_canvas_t
+hex2num	util.c	/^int hex2num(char *str)$/;"	f
+hls2rgb	dcs.c	/^static uint32_t hls2rgb(int hue, int lum, int sat)$/;"	f	file:
+host_alias	Makefile	/^host_alias = $/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+hue2rgb	dcs.c	/^static uint32_t hue2rgb(int n1, int n2, int hue)$/;"	f	file:
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_glyph	dcs.c	/^static void init_glyph(struct glyph_t *glyph)$/;"	f	file:
+input	main.c	/^    char *input;$/;"	m	struct:settings_t	file:
+insert_blank	function.c	/^void insert_blank(struct terminal *term, struct parm_t *parm)$/;"	f
+insert_line	function.c	/^void insert_line(struct terminal *term, struct parm_t *parm)$/;"	f
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/shane\/var\/smulliga\/source\/git\/saitoha\/seq2gif\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+interval	wcwidth.c	/^struct interval {$/;"	s	file:
+is_osc_parm	parse.c	/^static int is_osc_parm(int c)$/;"	f	file:
+is_valid	yaft.h	/^    bool is_valid;$/;"	m	struct:charset_t
+ismsgprint	gifsave89.c	64;"	d	file:
+last	wcwidth.c	/^  int last;$/;"	m	struct:interval	file:
+last_frame_delay	main.c	/^    int last_frame_delay;$/;"	m	struct:settings_t	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+line_dirty	yaft.h	/^    bool *line_dirty;                            \/* dirty flag *\/$/;"	m	struct:terminal
+line_length	pseudo.h	/^    int line_length;     \/* line length (byte) *\/$/;"	m	struct:pseudobuffer
+line_length	yaft.h	/^    int line_length;$/;"	m	struct:sixel_canvas_t
+lines	yaft.h	/^    int cols, lines;                             \/* terminal size (cell) *\/$/;"	m	struct:terminal
+load_alias	glyph/font.h	/^void load_alias(struct glyph_t *fonts, char *alias)$/;"	f
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	gifsave89.c	/^int main(int argc, char *argv[])$/;"	f
+main	glyph/mkfont_bdf.c	/^int main(int argc, char *argv[])$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+make_dummy_depfile	depcomp	/^make_dummy_depfile ()$/;"	f
+makegif	gifsave89.c	/^void *makegif(int *nbytes, int width, int height, void *pixels,$/;"	f
+malloc	malloc_stub.c	31;"	d	file:
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+margin	yaft.h	/^struct margin { uint16_t top, bottom; };$/;"	s
+max2	gifsave89.c	76;"	d	file:
+memcpy	dcs.c	42;"	d	file:
+memcpy	main.c	52;"	d	file:
+memcpy	pseudo.c	29;"	d	file:
+memmove	terminal.c	34;"	d	file:
+min2	gifsave89.c	75;"	d	file:
+misc	glyph/mkfont_bdf.h	/^enum misc {$/;"	g
+misc	yaft.h	/^enum misc {$/;"	g
+mk_wcswidth	wcwidth.c	/^int mk_wcswidth(const wchar_t *pwcs, size_t n)$/;"	f
+mk_wcswidth_cjk	wcwidth.c	/^int mk_wcswidth_cjk(const wchar_t *pwcs, size_t n)$/;"	f
+mk_wcwidth	wcwidth.c	/^int mk_wcwidth(wchar_t ucs)$/;"	f
+mk_wcwidth_cjk	wcwidth.c	/^int mk_wcwidth_cjk(wchar_t ucs)$/;"	f
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mode	yaft.h	/^    enum term_mode mode;                         \/* for set\/reset mode *\/$/;"	m	struct:terminal	typeref:enum:terminal::term_mode
+mode	yaft.h	/^    enum term_mode mode;$/;"	m	struct:state_t	typeref:enum:state_t::term_mode
+move_cursor	terminal.c	/^void move_cursor(struct terminal *term, int y_offset, int x_offset)$/;"	f
+msgfile	gifsave89.c	/^static char msgfile[132] = "\\000";        \/* file for msgs (stdout if "\\0") *\/$/;"	v	file:
+msglevel	gifsave89.c	/^static int msglevel =                        \/* message level \/ verbosity *\/$/;"	v	file:
+my_ceil	util.c	/^int my_ceil(int val, int div)$/;"	f
+newgif	gifsave89.c	/^void *newgif(void **gifimage, int width, int height,$/;"	f
+newgifstruct	gifsave89.c	/^GS *newgifstruct(void **gifimage, int width, int height)$/;"	f
+nl	function.c	/^void nl(struct terminal *term)$/;"	f
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+omit_string_terminator	parse.c	/^static void omit_string_terminator(char *bp, uint8_t ch)$/;"	f	file:
+open_input_file	main.c	/^static FILE * open_input_file(char const *filename)$/;"	f	file:
+open_output_file	main.c	/^static FILE * open_output_file(char const *filename)$/;"	f	file:
+osc_sequence	parse.c	/^static void osc_sequence(struct terminal *term, uint8_t ch)$/;"	f	file:
+output	main.c	/^    char *output;$/;"	m	struct:settings_t	file:
+overlay	gifsave89.c	/^BYTE *overlay(BYTE * pix1, int w1, int h1, BYTE * pix2, int w2, int h2,$/;"	f
+parm_t	yaft.h	/^struct parm_t { \/* for parse_arg() *\/$/;"	s
+parse	parse.c	/^void parse(struct terminal *term, uint8_t *buf, int size, int *pdirty)$/;"	f
+parse_arg	util.c	/^void parse_arg(char *buf, struct parm_t *pt, int delim, int (is_valid)(int c))$/;"	f
+parse_args	main.c	/^static int parse_args(int argc, char *argv[], struct settings_t *psettings)$/;"	f	file:
+pb_die	main.c	/^static void pb_die(struct pseudobuffer *pb)$/;"	f	file:
+pb_init	main.c	/^static void pb_init(struct pseudobuffer *pb, int width, int height)$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pixel2index	main.c	/^static uint32_t pixel2index(uint32_t pixel)$/;"	f	file:
+pixel_size	glyph/mkfont_bdf.h	/^	int pixel_size;$/;"	m	struct:bdf_t
+pixgraph	gifsave89.c	/^BYTE *pixgraph(int ncols, int nrows, double *f, int n)$/;"	f
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/seq2gif$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/seq2gif$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/seq2gif$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/seq2gif$/;"	m
+plainmimetext	gifsave89.c	/^BYTE *plainmimetext(char *expression, int *width, int *height)$/;"	f
+plaintxtgif	gifsave89.c	/^int plaintxtgif(GS * gs, int left, int top, int width, int height,$/;"	f
+play_speed	main.c	/^    double play_speed;$/;"	m	struct:settings_t	file:
+point	yaft.h	/^    struct point_t point;$/;"	m	struct:sixel_canvas_t	typeref:struct:sixel_canvas_t::point_t
+point_t	yaft.h	/^struct point_t { uint16_t x, y; };$/;"	s
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+program_details	missing	/^program_details ()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+pseudobuffer	pseudo.h	/^struct pseudobuffer {$/;"	s
+push_esc	terminal.c	/^bool push_esc(struct terminal *term, uint8_t ch)$/;"	f
+putbit	gifsave89.c	51;"	d	file:
+putbitfield	gifsave89.c	55;"	d	file:
+putblkbyte	gifsave89.c	/^int putblkbyte(BK * bk, int byte)$/;"	f
+putblkbytes	gifsave89.c	/^int putblkbytes(BK * bk, BYTE * bytes, int nbytes)$/;"	f
+putblkword	gifsave89.c	/^int putblkword(BK * bk, int word)$/;"	f
+putgif	gifsave89.c	/^int putgif(GS * gs, void *pixels)$/;"	f
+putgifapplication	gifsave89.c	/^int putgifapplication(GS * gs, GIFAPPLICATION * ga)$/;"	f
+putgifcolortable	gifsave89.c	/^int putgifcolortable(GS * gs, int *colors)$/;"	f
+putlzw	gifsave89.c	/^int putlzw(GS * gs, int index, int byte)$/;"	f
+putsubblock	gifsave89.c	/^int putsubblock(SB * sb, int bits, int nbits)$/;"	f
+putsubbytes	gifsave89.c	/^int putsubbytes(SB * sb, BYTE * bytes, int nbytes)$/;"	f
+readlen	main.c	/^static int32_t readlen(FILE *f, uint8_t *obuf)$/;"	f	file:
+readtime	main.c	/^static int32_t readtime(FILE *f, uint8_t *obuf)$/;"	f	file:
+realloc	malloc_stub.c	43;"	d	file:
+refresh	pseudo.c	/^void refresh(struct pseudobuffer *pb, struct terminal *term)$/;"	f
+render_interval	main.c	/^    int render_interval;$/;"	m	struct:settings_t	file:
+repeat	main.c	/^    int repeat;$/;"	m	struct:settings_t	file:
+reset	terminal.c	/^void reset(struct terminal *term)$/;"	f
+reset_charset	terminal.c	/^void reset_charset(struct terminal *term)$/;"	f
+reset_esc	terminal.c	/^void reset_esc(struct terminal *term)$/;"	f
+reset_mode	function.c	/^void reset_mode(struct terminal *term, struct parm_t *parm)$/;"	f
+reset_parm	util.c	/^void reset_parm(struct parm_t *pt)$/;"	f
+reset_sixel	dcs.c	/^void reset_sixel(struct sixel_canvas_t *sc, struct color_pair_t color_pair, int width, int height)$/;"	f
+restore_state	function.c	/^void restore_state(struct terminal *term)$/;"	f
+reverse_nl	function.c	/^void reverse_nl(struct terminal *term)$/;"	f
+ris	function.c	/^void ris(struct terminal *term)$/;"	f
+rpl_malloc	malloc_stub.c	/^rpl_malloc(size_t n)$/;"	f
+rpl_realloc	malloc_stub.c	/^rpl_realloc(void *p, size_t n)$/;"	f
+save_state	function.c	/^void save_state(struct terminal *term)$/;"	f
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+scroll	terminal.c	/^void scroll(struct terminal *term, int from, int to, int offset)$/;"	f
+scroll	yaft.h	/^    struct margin scroll;                        \/* scroll margin *\/$/;"	m	struct:terminal	typeref:struct:terminal::margin
+seq2gif_CFLAGS	Makefile	/^seq2gif_CFLAGS = $(MAYBE_COVERAGE)$/;"	m
+seq2gif_LDADD	Makefile	/^seq2gif_LDADD = $(LDADD)$/;"	m
+seq2gif_LINK	Makefile	/^seq2gif_LINK = $(CCLD) $(seq2gif_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) \\$/;"	m
+seq2gif_OBJECTS	Makefile	/^seq2gif_OBJECTS = $(am_seq2gif_OBJECTS)$/;"	m
+seq2gif_SOURCES	Makefile	/^seq2gif_SOURCES = main.c util.c pseudo.c terminal.c function.c \\$/;"	m
+set_attr	function.c	/^void set_attr(struct terminal *term, struct parm_t *parm)$/;"	f
+set_base_from	depcomp	/^set_base_from ()$/;"	f
+set_cell	terminal.c	/^int set_cell(struct terminal *term, int y, int x, const struct glyph_t *glyphp)$/;"	f
+set_colormap	main.c	/^static void set_colormap(int colormap[COLORS * BYTES_PER_PIXEL + 1])$/;"	f	file:
+set_cursor	terminal.c	/^void set_cursor(struct terminal *term, int y, int x)$/;"	f
+set_dir_from	depcomp	/^set_dir_from ()$/;"	f
+set_empty_glyph	glyph/font.h	/^void set_empty_glyph(struct glyph_t *fonts, uint32_t code, enum glyph_width_t wide)$/;"	f
+set_margin	function.c	/^void set_margin(struct terminal *term, struct parm_t *parm)$/;"	f
+set_mode	function.c	/^void set_mode(struct terminal *term, struct parm_t *parm)$/;"	f
+set_tabstop	function.c	/^void set_tabstop(struct terminal *term)$/;"	f
+setbit	gifsave89.c	49;"	d	file:
+settings_t	main.c	/^struct settings_t {$/;"	s	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+show_help	main.c	/^    int show_help;$/;"	m	struct:settings_t	file:
+show_help	main.c	/^static void show_help()$/;"	f	file:
+show_version	main.c	/^    int show_version;$/;"	m	struct:settings_t	file:
+show_version	main.c	/^static void show_version()$/;"	f	file:
+sixel	yaft.h	/^    struct sixel_canvas_t sixel;$/;"	m	struct:terminal	typeref:struct:terminal::sixel_canvas_t
+sixel_attr	dcs.c	/^static int sixel_attr(struct sixel_canvas_t *sc, char *buf)$/;"	f	file:
+sixel_bitmap	dcs.c	/^static int sixel_bitmap(struct terminal *term, struct sixel_canvas_t *sc, uint8_t bitmap)$/;"	f	file:
+sixel_canvas_t	yaft.h	/^struct sixel_canvas_t {$/;"	s
+sixel_color	dcs.c	/^static int sixel_color(struct sixel_canvas_t *sc, char *buf)$/;"	f	file:
+sixel_copy2cell	dcs.c	/^void sixel_copy2cell(struct terminal *term, struct sixel_canvas_t *sc)$/;"	f
+sixel_cr	dcs.c	/^static int sixel_cr(struct sixel_canvas_t *sc)$/;"	f	file:
+sixel_nl	dcs.c	/^static int sixel_nl(struct sixel_canvas_t *sc)$/;"	f	file:
+sixel_parse_data	dcs.c	/^void sixel_parse_data(struct terminal *term, struct sixel_canvas_t *sc, char *start_buf)$/;"	f
+sixel_parse_header	dcs.c	/^void sixel_parse_header(struct terminal *term, char *start_buf)$/;"	f
+sixel_repeat	dcs.c	/^static int sixel_repeat(struct terminal *term, struct sixel_canvas_t *sc, char *buf)$/;"	f	file:
+size	yaft.h	/^    int size;$/;"	m	struct:esc_t
+srcdir	Makefile	/^srcdir = .$/;"	m
+state	yaft.h	/^    enum esc_state state;$/;"	m	struct:esc_t	typeref:enum:esc_t::esc_state
+state	yaft.h	/^    struct state_t state;                        \/* for restore *\/$/;"	m	struct:terminal	typeref:struct:terminal::state_t
+state_t	yaft.h	/^struct state_t {   \/* for save, restore state *\/$/;"	s
+subdir	Makefile	/^subdir = .$/;"	m
+sum	function.c	/^int sum(struct parm_t *parm)$/;"	f
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tab	function.c	/^void tab(struct terminal *term)$/;"	f
+tabstop	yaft.h	/^    bool *tabstop;                               \/* tabstop flag *\/$/;"	m	struct:terminal
+tabwidth	main.c	/^    int tabwidth;$/;"	m	struct:settings_t	file:
+tabwidth	yaft.h	/^    int tabwidth;                                \/* hardware tabstop *\/$/;"	m	struct:terminal
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+term_die	terminal.c	/^void term_die(struct terminal *term)$/;"	f
+term_init	terminal.c	/^void term_init(struct terminal *term, int width, int height,$/;"	f
+term_mode	yaft.h	/^enum term_mode {$/;"	g
+terminal	yaft.h	/^struct terminal {$/;"	s
+top	yaft.h	/^struct margin { uint16_t top, bottom; };$/;"	m	struct:margin
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+utf8_charset	parse.c	/^static void utf8_charset(struct terminal *term, uint8_t ch)$/;"	f	file:
+wcwidth_func_t	yaft.h	/^typedef int (*wcwidth_func_t)(wchar_t);$/;"	t
+width	glyph/milkjf.h	/^    uint8_t width;$/;"	m	struct:glyph_t
+width	glyph/mkfont_bdf.h	/^	uint8_t width, height;$/;"	m	struct:glyph_t
+width	glyph/mplus.h	/^    uint8_t width;$/;"	m	struct:glyph_t
+width	main.c	/^    int width;$/;"	m	struct:settings_t	file:
+width	pseudo.h	/^    int width, height;   \/* display resolution *\/$/;"	m	struct:pseudobuffer
+width	yaft.h	/^    enum glyph_width_t width;       \/* wide char flag: WIDE, NEXT_TO_WIDE, HALF *\/$/;"	m	struct:cell_t	typeref:enum:cell_t::glyph_width_t
+width	yaft.h	/^    int width, height;                           \/* terminal size (pixel) *\/$/;"	m	struct:terminal
+width	yaft.h	/^    int width, height;$/;"	m	struct:sixel_canvas_t
+wrap_occured	yaft.h	/^    bool wrap_occured;                           \/* whether auto wrap occured or not *\/$/;"	m	struct:terminal
+write_gif	main.c	/^static size_t write_gif(unsigned char *gifimage, int size, FILE *f)$/;"	f	file:
+writefile	gifsave89.c	/^int writefile(BYTE * buffer, int nbytes, char *file)$/;"	f
+x	yaft.h	/^struct point_t { uint16_t x, y; };$/;"	m	struct:point_t
+y	yaft.h	/^struct point_t { uint16_t x, y; };$/;"	m	struct:point_t
